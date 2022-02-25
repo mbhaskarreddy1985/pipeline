@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage ("build") {
         steps{
-          echo "Build environment"
+          echo "Build environment after code change"
         }
       }
       stage ("test") {
