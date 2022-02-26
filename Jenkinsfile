@@ -4,6 +4,7 @@ pipeline {
       stage ("build") {
         steps{
           echo "Build environment after code change"
+          echo "Webhook added"
         }
       }
       stage ("test") {
